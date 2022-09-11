@@ -2,7 +2,6 @@
     font-size: 23px;
     width: 100%;
     margin: 0px;
-    box-shadow: 5px 5px 5px red;
 }
 .note{
     font-size: 15px;
@@ -11,13 +10,25 @@
 .body{
     background-size: cover;
 }
-canvas{
-border: 20px solid palevioletred;
-box-shadow:5px 5px 5px tomato;
-border-radius: 50px;
-margin-top: 50px;
+.div_speed{
+    float:left;
 }
-#song{
-    font-size:23px;
+.div_speed_img{
+    width: 200px;
+    border-radius: 100%;
+}
+#speed{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float:right;
+}
+.div_volume_img{
+    width: 200px;
+    border-radius: 100%;
+}
+#volume{
+    font-size: 23px;
     margin: 15px;
 }
